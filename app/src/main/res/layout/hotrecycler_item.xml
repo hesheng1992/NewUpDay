@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hot_rl"
+    android:background="#fff">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:contentPadding="4dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/hot_iv"
+            android:src="@drawable/dage"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aksjfhwejsdlkfhnwsklf"
+            android:id="@+id/hot_tv"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:singleLine="true"
+            android:layout_gravity="bottom"/>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</FrameLayout>

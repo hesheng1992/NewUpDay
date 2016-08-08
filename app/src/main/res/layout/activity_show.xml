@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.newsupday.ui.ShowActivity">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/progressbar"
+        android:layout_weight="0"
+        style="?android:attr/progressBarStyleHorizontal"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <WebView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webview"
+            android:layout_weight="1">
+
+
+        </WebView>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:src="@drawable/star_selected"
+            android:id="@+id/floatbutton"
+            android:elevation="4dp"
+            app:pressedTranslationZ="12dp"
+            app:rippleColor="#337873"
+            app:borderWidth="0dp"
+            android:backgroundTint="#ff87ffeb"/>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
